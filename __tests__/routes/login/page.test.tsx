@@ -28,5 +28,5 @@ describe('Login Page', () => {
         render(<LoginPage />);
         const inputTextComponent = screen.getByLabelText('Email');
         expect(inputTextComponent).toHaveAttribute('type', 'email');
-    })
+    });
 })
